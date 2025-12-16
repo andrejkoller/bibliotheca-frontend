@@ -33,8 +33,8 @@ A modern, responsive book management application built with Vue 3. This project 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/andrejkoller/bookarchive-frontend.git
-cd bookarchive-frontend
+git clone https://github.com/andrejkoller/bibliotheca-frontend.git
+cd bibliotheca-frontend
 ```
 
 2. Install dependencies
