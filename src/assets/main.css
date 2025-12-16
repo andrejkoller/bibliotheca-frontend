@@ -1,78 +1,33 @@
 @font-face {
-  font-family: 'LoraRegular';
-  src: url('../fonts/lora/Lora-Regular.ttf') format('truetype');
+  font-family: 'Nunito-Light';
+  src: url('../fonts/Nunito-Light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'LoraBold';
-  src: url('../fonts/lora/Lora-Bold.ttf') format('truetype');
+  font-family: 'Nunito-Regular';
+  src: url('../fonts/Nunito-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'LoraMedium';
-  src: url('../fonts/lora/Lora-Medium.ttf') format('truetype');
+  font-family: 'Nunito-Medium';
+  src: url('../fonts/Nunito-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'LoraSemiBold';
-  src: url('../fonts/lora/Lora-SemiBold.ttf') format('truetype');
+  font-family: 'Nunito-SemiBold';
+  src: url('../fonts/Nunito-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('../fonts/Nunito-Bold.ttf') format('truetype');
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffecbd;
-  color: #266152;
+  font-family: 'Nunito-Regular', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
   margin: 0;
   padding: 0;
-}
-
-.v-text-field input {
-  font-family: 'LoraRegular', Arial, sans-serif;
-  font-size: 16px;
-  color: #266152;
-  background-color: transparent;
-  border: 1px solid #266152 !important;
-  border-radius: 4px;
-  padding: 4px 16px;
-}
-
-.v-field--variant-solo-filled .v-field__overlay {
-  background-color: #ffecbd !important;
-}
-
-.v-field--variant-solo,
-.v-field--variant-solo-filled {
-  box-shadow: none !important;
-  border: 1px solid #266152 !important;
-  border-radius: 0 !important;
-  background-color: transparent !important;
-  color: #266152 !important;
-}
-
-.v-field--variant-solo,
-.v-field--variant-solo-filled:focus-within {
-  border: 0 !important;
-  box-shadow: none !important;
-}
-
-.v-text-field .v-input__details {
-  display: none;
-}
-
-.v-label.v-field-label {
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.v-input__prepend {
-  display: none !important;
-}
-
-.v-input--density-default .v-field__input {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.v-btn--variant-plain {
-  opacity: 1 !important;
+  box-sizing: border-box;
 }

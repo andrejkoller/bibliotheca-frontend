@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Book } from '@/models/Book'
-import { BookFormat, BookGenre, BookLanguage } from '@/models/Book'
+import type { Book } from '@/models/book'
+import { BookFormat, BookGenre, BookLanguage } from '@/models/book'
 import {
   getBooks,
   filterBooksByGenre,
@@ -10,7 +10,7 @@ import {
   searchBooks,
   deleteBookById,
   createBook,
-} from '@/services/bookService'
+} from '@/services/book-service'
 import { onMounted, ref } from 'vue'
 import { VBtn, VTextField, VDialog, VCard, VSelect, VFileInput } from 'vuetify/components'
 import { ArrowUp, ArrowDown, ArrowRight, Plus, Minus } from 'lucide-vue-next'

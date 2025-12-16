@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import { RouterView, useRoute } from 'vue-router'
-import Header from './components/Header.vue'
-import { computed } from 'vue'
-
-const route = useRoute()
-const isHome = computed(() => route.path === '/')
+import { RouterView } from 'vue-router'
+import Header from './components/header/header.vue'
 </script>
 
 <template>
-  <Header v-if="!isHome" />
+  <Header />
   <RouterView />
 </template>
 

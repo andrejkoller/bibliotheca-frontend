@@ -1,4 +1,4 @@
-import type { Book, BookFormat, BookGenre, BookLanguage } from '@/models/Book'
+import type { Book, BookFormat, BookGenre, BookLanguage } from '@/models/book'
 import axios from 'axios'
 
 const api = axios.create({

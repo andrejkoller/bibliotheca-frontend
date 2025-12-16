@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { BookFormat, BookGenre, BookLanguage, type Book } from '@/models/Book'
-import { getBookById, updateBookById } from '@/services/bookService'
+import { BookFormat, BookGenre, BookLanguage, type Book } from '@/models/book'
+import { getBookById, updateBookById } from '@/services/book-service'
 import { onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { VBtn, VDialog, VCard, VSelect, VTextField, VFileInput } from 'vuetify/components'
